@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/mathewrupp/.oh-my-zsh"
 
+precmd() {
+    source ~/.zsh/aliases.zsh
+}
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -101,9 +104,12 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim="nvim"
-alias python="python3"
-alias pip="pip3"
-alias alacritty='vim ~/.config/alacritty/alacritty.yml'
-alias sauce='source ~/.zshrc'
-eval "$(starship init zsh)"
+# alias vim="nvim"
+# alias python="python3"
+# alias pip="pip3"
+# alias alacritty='vim ~/.config/alacritty/alacritty.yml'
+# alias sauce='source ~/.zshrc'
+# alias programming='cd ~/Documents/programming'
+# alias venv='source venv/bin/activate'
+# alias devenv='deactivate'
+eval $(starship init zsh)
