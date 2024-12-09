@@ -1,0 +1,19 @@
+
+live_config_reload = true
+
+[window]
+opacity = 0.95
+dynamic_padding = false
+decorations = "buttonless"
+
+  [window.padding]
+  x = 18
+  y = 16
+
+[font]
+size = 20
+
+  [font.normal]
+  family = "SFMono Nerd Font"
+  style = "Regular"
+

@@ -112,4 +112,6 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # alias programming='cd ~/Documents/programming'
 # alias venv='source venv/bin/activate'
 # alias devenv='deactivate'
+export GOPATH=$(go env GOPATH)
+export PATH=$PATH:$GOPATH/bin
 eval "$(starship init zsh)"

@@ -120,16 +120,7 @@ symbol = "󰏗 "
 [pijul_channel]
 symbol = " "
 
-[python]
-symbol = " "
 
-[rlang]
-symbol = "󰟔 "
 
-[ruby]
-symbol = " "
 
-[rust]
-symbol = " "
-
-command_timeout = 2000
+command_timeout = 5000
